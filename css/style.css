@@ -6,7 +6,7 @@ font-family: "Segoe UI"!important;
     float: left;
 }
 .ft{
-font-size:14px;
+font-size:15px;
 }
 #header{
 background:url(images/back.jpg);
@@ -20,7 +20,7 @@ min-height: 95px;
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 10px 20px!important;
+    padding: 10px 19px!important;
 }
 .imp-detail li a {
     font-size: 13px;
@@ -31,7 +31,9 @@ min-height: 95px;
 .imp-detail li{
     color: rgb(27, 126, 199);
 }
-
+#banner-section{
+padding-top: 2px;
+}
 
 .title-header{
 color: #444488;
@@ -135,8 +137,8 @@ display: inherit!important;
 display:none;
 }
 .imp-detail h6{
-font-size: 14px;
-    font-weight: 700;
+font-size: 15px;
+    font-weight: 600;
     color: #1079c8;
 	    margin-bottom: 1px;
 	}
@@ -152,9 +154,16 @@ padding: 10px 0px 10px 0px;
 font-size: 13px;
     color: #1b7ec7;
     font-weight: 400;
-    margin-bottom: 0;
+    line-height:21px;
 	text-align:justify;
+border-top: 1px solid #d0d0d0;
 	}
+.mt{
+margin-top:5px;
+}
+.bdr{
+border:none!important;
+}
 	
 	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
     padding: 1px!important;
@@ -170,11 +179,12 @@ font-size: 13px;
 	padding-top: 7px;
 	}
 	.imp-detail{
-		    margin-top: -3px;
-			
+		    margin-top: 0px;
 			}
-			.img-detail{
-				}
+			#banner-section p{
+			margin-bottom: 2px;
+			}
+			
 	.pdl{
 	    padding-left: 0!important;
 		}
@@ -192,24 +202,28 @@ font-size: 13px;
 	text-decoration:none;
 	color:white;
 	}
+.text{
+margin-top: 5px;
+}
 .text p{
     font-size: 13px;
     color: #1b7ec7;
     font-weight: 400;
 	text-align: justify;
-	
+	line-height:21px;
 	}
 	.text h6{
-	font-size: 14px;
-    font-weight: 700;
+	font-size: 15px;
+    font-weight: 600;
     color: #1079c8;
-    text-decoration: underline;
-    margin-bottom: 1px;
+    /*text-decoration: underline;*/
+    margin-bottom: 5px;
 	    margin-top: 0px;
+		    padding-left: 7px;
 	}
 	.su{
-	font-weight:bold!important;
-	text-decoration:underline;
+	/*font-weight:bold!important;*/
+	/*text-decoration:underline;*/
 	
 	}
 	.middle .text i{
@@ -217,7 +231,7 @@ font-size: 13px;
     font-size: 17px;
 	}
 	.text2{
-	padding:3px 0px;
+	padding:0px 0px;
 	}
 	.mb{
 		margin-bottom:0px;
@@ -266,15 +280,15 @@ font-size: 13px;
 	
 	.footer li{
 	list-style-type: none;
-	margin: 0 6px;
+	margin: 0 5px;
 	}
 
 	
 	.footer ul{
-margin: 11px 42px;
+margin: 11px 0px;
 }
 .news-update{
-	    margin-top: 1px;
+	    margin-top: 6px;
 	}
 	.text img{
 		height: 20px;
@@ -413,9 +427,7 @@ color: #565656;
     margin-left: 38px;
 	padding-top: 68px;
 	}
-	.navbar-nav {
-    padding-left: 7px!important;
-}
+	
 
 	.btn {
     padding: 2px 8px!important;
@@ -454,9 +466,13 @@ color: #565656;
     display: block;
     line-height: 26px;
 }
+.mgtop{
+    margin-top: 19px;
+}
 .footer-detail {
     text-align: center;
     min-height: 82px;
+margin-top: 15px;
 	/*background: antiquewhite;*/
 }
 .footer li a{
@@ -745,10 +761,22 @@ font-weight:500;
 	}
 
 .imp-detail h5 {
-background: #ccccee;
+background: #fcb547;
     padding: 3px 3px;
     border: 1px solid #ececec;
     color: #060e74;
     margin-bottom: 0px;
     font-size: 16px;
+	margin-top:6px;
 }
+
+.bck_ground{
+background:#FFFFFF;
+}
+.title_bck{
+background: #ccccee;
+    padding: 3px 0;
+    box-shadow: 1px 1px 1px grey;
+    margin-top: 5px;
+    color: #060e74!important;
+	}
