@@ -97,6 +97,15 @@ width: 20%!important;
     font-weight: 700;
     margin-top: 0;
 }
+.nav > li {
+    margin: 0!important;
+}
+.navbar-header{
+background: #337ab7;
+}
+.navbar-header a{
+color: white;
+}
 .inup {
     padding-top: 9px!important;
 }
